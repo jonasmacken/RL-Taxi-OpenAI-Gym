@@ -1,6 +1,6 @@
 # Taxi-v3 Reinforcement Learning Agent 🚖
 
-This project implements and compares two reinforcement learning algorithms — **Q-learning** and **SARSA** — on the classic **Taxi-v3 environment** from OpenAI Gym. The agent is trained to pick up and drop off passengers as efficiently as possible using a learned Q-table.
+This project implements and compares two reinforcement learning algorithms, **Q-learning** and **SARSA**, on the classic **Taxi-v3 environment** from OpenAI Gym. The agent is trained to pick up and drop off passengers as efficiently as possible using a learned Q-table.
 
 ---
 
@@ -18,9 +18,9 @@ The [Taxi-v3](https://www.gymlibrary.dev/environments/toy_text/taxi/) environmen
 
 ### 2. SARSA (State-Action-Reward-State-Action)
 - On-policy algorithm
-- Updates the Q-table using the reward of the **actual** action taken
+- Updates the Q-table using the reward of the actual action taken
 
-Both algorithms are trained over multiple episodes, and performance is measured by the **average number of steps taken to complete an episode**.
+Both algorithms are trained over multiple episodes, and performance is measured by the average number of steps taken to complete an episode.
 
 ---
 
@@ -48,8 +48,8 @@ Pre-trained Q-tables are included:
 ## Installation
 1. Clone the repo
 ```bash
-git clone https://github.com/jonasmacken/RL-Taxi-OpenAI-Gym.git
-cd RL-Taxi-OpenAI-Gym
+git clone https://github.com/jonasmacken/RL-Taxi-v3.git
+cd RL-Taxi-v3
 ```
 2. Install dependencies
 ```bash
@@ -61,8 +61,8 @@ jupyter notebook taxi-v3-rl.ipynb
 ```
 
 ## Notes
-- The .npy files are saved Q-tables — no need to retrain unless you want to.
-- The notebook loads in these Q-tables and has commented out training steps — uncomment the training code to re-train the Q-tables.
+- The .npy files are saved Q-tables. No need to retrain unless you want to.
+- The notebook loads in these Q-tables and has commented out training steps. Uncomment the training code to re-train them.
 - This project was originally created for a UNSW assignment on reinforcement learning (COMP9414).
 
 ## Author
