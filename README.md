@@ -43,3 +43,29 @@ Pre-trained Q-tables are included:
 ├── SARSA_Q_table.npy                              # Trained Q-table from SARSA
 ├── requirements.txt                               # Python dependencies
 └── README.md                                      # Project documentation
+```
+
+## Installation
+1. Clone the repo
+```bash
+git clone https://github.com/jonasmacken/RL-Taxi-OpenAI-Gym.git
+cd RL-Taxi-OpenAI-Gym
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Run the notebook
+```bash
+jupyter notebook taxi-v3-rl.ipynb
+```
+
+## Notes
+- The .npy files are saved Q-tables — no need to retrain unless you want to.
+- The notebook loads in these Q-tables and has commented out training steps — uncomment the training code to re-train the Q-tables.
+- This project was originally created for a UNSW assignment on reinforcement learning (COMP9414).
+
+## Author
+Jonas Macken
+
+
