@@ -1,4 +1,4 @@
-# Taxi Reinforcement Learning Agent 🚖
+# Taxi-v3 Reinforcement Learning Agent 🚖
 
 This project implements and compares two reinforcement learning algorithms — **Q-learning** and **SARSA** — on the classic **Taxi-v3 environment** from OpenAI Gym. The agent is trained to pick up and drop off passengers as efficiently as possible using a learned Q-table.
 
